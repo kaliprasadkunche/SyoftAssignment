@@ -1,0 +1,27 @@
+.login-container, .signup-container {
+    display: flex;
+    height: 100vh;
+}
+
+
+.image-side {
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    overflow: hidden; 
+    width: 50vw;
+    margin: 20px;
+}
+
+.card {
+    margin: auto; /* Center the card vertically and horizontally */
+}
+
+.gradient-text {
+    background: linear-gradient(90deg, #ff4081, #2196f3);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
